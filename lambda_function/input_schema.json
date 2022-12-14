@@ -1,0 +1,58 @@
+{
+    "title": "Lambda Function (Input)",
+    "definitions": {
+        "InputModel": {
+            "title": "InputModel",
+            "type": "object",
+            "properties": {
+                "first_name": {
+                    "title": "First Name",
+                    "description": "The person's first name",
+                    "example": "Leroy",
+                    "type": "string"
+                },
+                "last_name": {
+                    "title": "Last Name",
+                    "description": "The person's last name",
+                    "example": "Jenkins",
+                    "type": "string"
+                },
+                "email": {
+                    "title": "Email",
+                    "description": "The person's email address",
+                    "example": "leroyjenkins42@gmail.com",
+                    "type": "string"
+                },
+                "age": {
+                    "title": "Age",
+                    "description": "The person's age",
+                    "example": 42,
+                    "type": "integer"
+                },
+                "role": {
+                    "title": "Role",
+                    "description": "The person's role",
+                    "default": "Admin",
+                    "example": "Admin",
+                    "nullable": false,
+                    "type": "string"
+                }
+            },
+            "required": [
+                "first_name",
+                "last_name",
+                "email",
+                "age"
+            ],
+            "examples": [
+                {
+                    "first_name": "Leroy",
+                    "last_name": "Jenkins",
+                    "age": 42,
+                    "email": "leroyjenkins42@gmail.com",
+                    "role": "Admin"
+                }
+            ]
+        }
+    }
+}
