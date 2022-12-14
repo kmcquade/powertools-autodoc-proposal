@@ -261,5 +261,5 @@ When you use this, the generated JSON Schema now includes example payloads:
 
 # Wrapping it up
 
-I know that was a lot of information! I hope this helps, and I'm happy to answer any questions about this proposal. Feel free to tag me on the 
+I know that was a lot of information! I hope this helps, and I'm happy to answer any questions about this proposal. Feel free to tag me on the GitHub issue ([#1236](https://github.com/awslabs/aws-lambda-powertools-python/issues/1236#issuecomment-1156886330)) with my GitHub username, `@kmcquade`, or hit me up on Twitter ([@kmcquade3](https://twitter.com/kmcquade3)). 
 
